@@ -1,6 +1,13 @@
 let xhr = new XMLHttpRequest();
 const date = new Date();
 
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+
+
 function getCoupon(url) {
     let response;
     const 메인 = document.querySelector("#top");
