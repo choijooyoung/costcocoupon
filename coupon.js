@@ -2,6 +2,13 @@ let response;
 const 메인 = document.querySelector("#top");
 let url2 = location.search.split("=")[1];
 
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+
+
 xhr.onreadystatechange = function () {
     if (xhr.readyState === xhr.DONE) {
         if (xhr.readyState === xhr.DONE) {
