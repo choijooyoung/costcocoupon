@@ -1,10 +1,10 @@
 {
   "short_name": "코스트코",
   "name": "코스트코 쿠폰",
-     "icons": [{"src":"logo/logo.png","type":"image/png","sizes":"48x48"},
-               {"src":"logo/logo2.png","type":"image/png","sizes":"96x96"},
-               {"src":"logo/logo3.png","type":"image/png","sizes":"144x144"},
-               {"src":"logo/logo4.png","type":"image/png","sizes":"192x192"},
+     "icons": [{"src":"logo/logo5.png","type":"image/png","sizes":"48x48"},
+               {"src":"logo/logo5.png","type":"image/png","sizes":"96x96"},
+               {"src":"logo/logo5.png","type":"image/png","sizes":"144x144"},
+               {"src":"logo/logo5.png","type":"image/png","sizes":"192x192"},
                {"src":"logo/logo5.png","type":"image/png","sizes":"1024x1024"}]
   ,
   
