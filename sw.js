@@ -5,8 +5,6 @@ self.addEventListener('install', function (event) {
         '/index.html',
         '/index.js',
         '/index.css',
-        '/coupon.js',
-        '/coupon.html',
         '/manifest.json',
         '/logo/logo1.png',
         '/logo/logo2.png',
