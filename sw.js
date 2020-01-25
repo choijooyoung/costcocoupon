@@ -2,19 +2,18 @@ self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open('v1').then(function (cache) {
       return cache.addAll([
-        '/costcocoupon/',
-        '/costcocoupon/index.html',
-        '/costcocoupon/index.js',
-        '/costcocoupon/index.css',
-        '/costcocoupon/coupon.js',
-        '/costcocoupon/coupon.html',
-        '/costcocoupon/manifest.json',
-        '/costcocoupon/logo/logo1.png',
-        '/costcocoupon/logo/logo2.png',
-        '/costcocoupon/logo/logo3.png',
-        '/costcocoupon/logo/logo4.png',
-        '/costcocoupon/logo/logo5.png',
-        '/costcocoupon/lunar.js'
+        '/index.html',
+        '/index.js',
+        '/index.css',
+        '/coupon.js',
+        '/coupon.html',
+        '/manifest.json',
+        '/logo/logo1.png',
+        '/logo/logo2.png',
+        '/logo/logo3.png',
+        '/logo/logo4.png',
+        '/logo/logo5.png',
+        '/lunar.js'
       ]);
     })
   );
@@ -37,7 +36,7 @@ self.addEventListener('fetch', function (event) {
         });
         return response;
       }).catch(function () {
-        return caches.match('/costcocoupon/index.html');
+        return caches.match('/index.html');
       });
     }
   }));
