@@ -3,6 +3,7 @@
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 #tit {
@@ -12,7 +13,7 @@
   line-height: 1.2em;
   color: white;
 
-  text-shadow: 0px 1px black, 0px 2px black, 0px 3px black;
+  text-shadow: 0px 0px 9px #8a0000;
 
 }
 
@@ -33,7 +34,7 @@
 }
 
 body {
-  background-color: #ffac32;
+  background-color: #CD3D41;
   margin: 10px;
   height: 100%;
   font-size: 15px;
@@ -59,7 +60,7 @@ body {
   line-height: 1.2em;
   color: coral;
 
-  text-shadow: 0px 1px #be522b, 0px 2px #be522b, 0px 3px #be522b;
+  text-shadow: 0px 1px #943e1f, 0px 2px #943e1f, 0px 3px #943e1f;
 }
 
 .휴무 {
@@ -73,5 +74,5 @@ body {
 
 .강조 {
   color: #f73636;
-  text-shadow: 0px 1px #960f0f, 0px 2px #960f0f, 0px 3px #960f0f;
+  text-shadow: 0px 1px #6c0c0c, 0px 2px #6c0c0c, 0px 3px #6c0c0c;
 }
