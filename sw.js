@@ -6,6 +6,7 @@ self.addEventListener('install', function (event) {
         '/index.html',
         '/index.js',
         '/index.css',
+        '/Jalnan.woff2',
         '/manifest.json',
         '/logo/logo1.png',
         '/logo/logo2.png',
