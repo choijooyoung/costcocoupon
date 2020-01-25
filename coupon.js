@@ -2,6 +2,8 @@ let response;
 const 메인 = document.querySelector("#top");
 let url2 = location.search.split("=")[1];
 
+
+
 xhr.onreadystatechange = function () {
     if (xhr.readyState === xhr.DONE) {
         if (xhr.readyState === xhr.DONE) {

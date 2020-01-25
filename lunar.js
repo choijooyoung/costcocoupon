@@ -468,10 +468,17 @@ function isSunday(date) {
   }
 }
 
+function pad(n, width) {
+  n = n + '';
+  return n.length >= width ? n : new Array(width - n.length + 1).join('0') + n;
+}
+
 function isHoliday(date) {
 
-  let date2 = "" + date.getFullYear() + (date.getMonth() + 1) + date.getDate();
+  let date2 = "" + date.getFullYear() + pad(date.getMonth() + 1, 2) + pad(date.getDate(), 2);
   let 설 = lunerCalenderToSolarCalenger(date.getFullYear() + "0101");
+  console.log(date2);
+  console.log(설);
   let 추석 = lunerCalenderToSolarCalenger(date.getFullYear() + "0815");
   if (date2 == 설 || date2 == 추석) {
     return true;
